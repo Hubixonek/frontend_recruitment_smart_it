@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/frontend_recruitment_smart_it/', // Nazwa Twojego repozytorium
+  plugins: [react()],
+  base: '/frontend_recruitment_smart_it/', 
 });
