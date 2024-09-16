@@ -78,7 +78,7 @@ const UsersTable = () => {
                 <tr key={user.id}>
                   <td className="table-cell">
                     <img
-                      src="/dashboard-username.png"
+                      src="src/public/images/dashboard-username.png"
                       width="38"
                       height="38"
                       alt="profile"
